@@ -1,0 +1,168 @@
+/* Style.css */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -185px;
+  width: 150px;
+  height: 100%;
+  background-color: #000000;
+  padding: 20px;
+  transition: left 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: rgb(16, 233, 16);
+  font-weight: bold;
+}
+.sidebar:hover {
+  left: 0px;
+}
+.sidebar a:hover {
+  color: #ff0d00;
+}
+
+.sidebar.visible {
+  left: 0;
+}
+
+/* YouTube */
+
+.youtubeDiv {
+  padding: 30px 200px;
+}
+.youtubeDiv h1 {
+  color: #ff0d00;
+  margin-bottom: 70px;
+  font-size: 60px;
+  text-shadow: 1px 1px 3px white;
+}
+.ytInput {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  height: 160px;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  border-radius: 17px;
+  background-color: #000000;
+}
+.ytInput button,
+input {
+  padding: 20px;
+  border-radius: 17px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+.ytInput button {
+  box-shadow: 1px 1px 3px;
+  cursor: pointer;
+  color: red;
+  font-size: 30px;
+}
+.ytInput button:hover {
+  box-shadow: 1px 1px 6px red;
+  font-size: 31px;
+}
+
+.tyvideo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 40px 0;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.tyvideo iframe {
+  border: none;
+  border-radius: 10px;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ytresult {
+  background-color: #000000;
+  padding: 30px 100px;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgba(255, 13, 0, 0.5);
+}
+
+.ytresult h2 {
+  color: #e3d6d5;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.ytresult ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ytresult li {
+  margin-bottom: 40px;
+  margin-RIGHT: 40px;
+}
+
+.ytresult img {
+  border-radius: 10px;
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.ytresult img:hover {
+  transform: scale(1.1);
+}
+
+.ytresult p {
+  color: rgb(45, 200, 17);
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* instergram */
+.instergramContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3px 200px;
+    color: #ff0d00;
+  }
+  .instergramContainer img{
+      width: 300px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      border-radius: 15px;
+      transition: 0.5s ease-in-out;
+  }
+  .instergramContainer img:hover{
+    transform: scale(1.1);
+
+  }
+  .facebookContainer {
+    padding: 20px 200px;
+    display: flex;
+  }

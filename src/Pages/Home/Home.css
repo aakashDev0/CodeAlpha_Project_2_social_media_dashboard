@@ -1,0 +1,39 @@
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 200px;
+}
+.home h1{
+  color: blue;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.home div p{
+  color: aliceblue;
+  font-size: 30px;
+  margin-left: 80px;
+}
+.linkContainer {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  justify-content: space-evenly;
+}
+.linkContainer img {
+  width: 200px;
+  height: 180px;
+  border-radius: 19px;
+}
+p{
+  color: aqua;
+  font-size: 24px;
+  line-height: 50px;
+}
+.link{
+  margin-right: 20px;
+}
+.link:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
